@@ -41,7 +41,7 @@ export default {
     methods: {
         realizarOp: function(operacion){
             if (operacion == '+') {
-                this.resultado = this.numero1 + this.numero2
+                this.resultado = parseInt(this.numero1) + parseInt(this.numero2)
             }else if (operacion == '-') {
                 this.resultado = this.numero1 - this.numero2
             }else if (operacion == '*') {
